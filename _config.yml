@@ -167,6 +167,7 @@ include:
   - .htaccess
   - _pages
   - _people
+  - _research
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -331,4 +332,4 @@ defaults:
 collections:
   people:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:collection /:path/

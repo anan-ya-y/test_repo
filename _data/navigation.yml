@@ -8,3 +8,20 @@ main:
     url: /research/
   - title: "Sitemap"
     url: /sitemap/
+
+
+research:
+  - title: "STAPL"
+    /url: /research/stapl/
+  - title: "tamp"
+    url: /research/tamp/
+    children:
+      - title: "spite"
+        url: /research/tamp/spite/
+      - title: "spooky skeletons"
+        url: /research/tamp/spooky-skeletons/
+        children:
+        - title: "hasrrt"
+          url: /research/tamp/spooky-skeletons/hasrrt/  
+  - title: "miv"
+    url: /research/miv/
