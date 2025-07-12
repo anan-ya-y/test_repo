@@ -1,7 +1,7 @@
 ---
 title: "Person2"
 header:
-    teaser: "assets/images/carrot.jpg"
+    teaser: "/assets/images/carrot.jpg"
 sitemap: true
 permalink: /people/person2
 layout: single
