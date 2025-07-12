@@ -1,14 +1,28 @@
 ---
-title: "Person1"
-header:
-    teaser: "/assets/images/carrot.jpg"
+title: "Perplexed Carrot"
+permalink: /people/perplexed_carrot
 sitemap: true
-permalink: /people/person1
 layout: single
-position: "undergrad"
 last_name: "bcde"
-position: 0
-rank: "Faculty"
+
+author:
+  name: "Perplexed Carrot"
+  avatar: "/assets/images/carrot.jpg"
+  bio: "Just an Australian Carrot"
+  rank: "Faculty"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:jane.doe@example.edu"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://janedoe.example.edu"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/janedoe"
+
+author_profile: true
+
 ---
 
 
