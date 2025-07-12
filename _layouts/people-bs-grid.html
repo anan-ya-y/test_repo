@@ -1,0 +1,26 @@
+---
+layout: single
+---
+
+{% assign categories = "Faculty,Postdoc,PhD Student" | split: "," %}
+<div class="container my-4">
+  {% for category in categories %}
+    <h2 class="mt-5 mb-4">{{ category }}</h2>
+    <div class="row g-4">
+      {% assign grouped_people = site.people | where: "rank", category | sort: "last_name" %}
+      {% for person in grouped_people %}
+        <div class="col-12 col-sm-1 col-md-6 col-lg-4">
+          <div class="card h-100 text-center">
+            {% if person.header.teaser %}
+              <img src="{{ person.header.teaser }}" class="card-img-top rounded-circle mx-auto mt-3" style="width:120px;height:120px;object-fit:cover;" alt="{{ person.name }}">
+            {% endif %}
+            <div class="card-body">
+              <h5 class="card-title mb-1">{{ person.title }}</h5>
+              <p class="card-text mb-1">{{ person.rank }}</p>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  {% endfor %}
+</div>

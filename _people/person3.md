@@ -1,13 +1,13 @@
 ---
-title: "Person2"
+title: "Person3"
 header:
     teaser: "/assets/images/carrot.jpg"
 sitemap: true
-permalink: /people/person2
+permalink: /people/person3
 layout: single
 last_name: "zzzz"
-rank: "Faculty"
+rank: "Postdoc"
 ---
 
 
-This is a page. test person2
+This is a page. test person3

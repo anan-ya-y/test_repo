@@ -1,14 +1,14 @@
 ---
-name: "Person1"
+title: "Person1"
 header:
-    teaser: "assets/images/carrot.jpg"
+    teaser: "/assets/images/carrot.jpg"
 sitemap: true
 permalink: /people/person1
 layout: single
 position: "undergrad"
 last_name: "bcde"
 position: 0
-title: "Faculty"
+rank: "Faculty"
 ---
 
 
